@@ -1,23 +1,21 @@
-#warning TODO: Adjust this information to match your component.
-
 using System.Windows.Forms;
 using System.Xml;
 
 using LiveSplit.Model;
-using LiveSplit.SampleSplitter.UI;
+using LiveSplit.GoldGrabber.UI;
 using LiveSplit.UI;
 using LiveSplit.UI.Components;
 
-namespace LiveSplit.SampleSplitter;
+namespace LiveSplit.GoldGrabber;
 
-public sealed class SampleSplitterComponent : LogicComponent
+public sealed class GoldGrabberComponent : LogicComponent
 {
-    public const string Name = "Sample Autosplitter";
+    public const string Name = "Gold Grabber";
 
     private readonly LiveSplitState _state;
-    private readonly SampleSplitterSettings _settings;
+    private readonly GoldGrabberSettings _settings;
 
-    public SampleSplitterComponent(LiveSplitState state)
+    public GoldGrabberComponent(LiveSplitState state)
     {
         _state = state;
         _settings = new();

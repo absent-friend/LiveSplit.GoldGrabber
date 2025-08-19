@@ -1,4 +1,4 @@
-# LiveSplit.SampleSplitter
+# LiveSplit.GoldGrabber
 
 ## Building
 

@@ -4,11 +4,11 @@ using System.Windows.Forms;
 using System.Xml;
 using LiveSplit.UI;
 
-namespace LiveSplit.SampleSplitter.UI;
+namespace LiveSplit.GoldGrabber.UI;
 
-public partial class SampleSplitterSettings : UserControl
+public partial class GoldGrabberSettings : UserControl
 {
-    public SampleSplitterSettings()
+    public GoldGrabberSettings()
     {
         InitializeComponent();
 

@@ -1,6 +1,6 @@
-﻿namespace LiveSplit.SampleSplitter.UI;
+﻿namespace LiveSplit.GoldGrabber.UI;
 
-partial class SampleSplitterSettings
+partial class GoldGrabberSettings
 {
     /// <summary> 
     /// Required designer variable.
