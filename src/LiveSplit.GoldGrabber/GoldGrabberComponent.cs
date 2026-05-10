@@ -23,14 +23,16 @@ public sealed class GoldGrabberComponent : LogicComponent
 
     public override string ComponentName => Name;
 
-    public override void Update(IInvalidator invalidator, LiveSplitState state, float width, float height, LayoutMode mode)
-    {
-#warning TODO: Splitter logic goes here.
-    }
+    public override void Update(IInvalidator invalidator, LiveSplitState state, float width, float height, LayoutMode mode) {}
 
     public override XmlNode GetSettings(XmlDocument document)
     {
         return _settings.GetSettings(document);
+    }
+
+    public int GetSettingsHashCode()
+    {
+        return _settings.GetSettingsHashCode();
     }
 
     public override void SetSettings(XmlNode settings)

@@ -2,6 +2,9 @@
 
   <Folder Name="/lib/" />
   <Folder Name="/lib/LiveSplit/">
+    <Project Path="lib/LiveSplit/lib/CustomFontDialog/CustomFontDialog/CustomFontDialog.csproj" />
+    <Project Path="lib/LiveSplit/lib/SpeedrunComSharp/src/SpeedrunComSharp/SpeedrunComSharp.csproj" />
+    <Project Path="lib/LiveSplit/lib/WinForms Color Picker/WinFormsColor/WinFormsColor.csproj" />
     <Project Path="lib/LiveSplit/src/LiveSplit.Core/LiveSplit.Core.csproj" />
     <Project Path="lib/LiveSplit/src/UpdateManager/UpdateManager.csproj" />
   </Folder>
